@@ -1,0 +1,38 @@
+#main{
+    text-align: center;
+}
+
+#section-1{
+    background-color: grey;
+    width: 400px;
+    border-style: solid;
+    margin: 5px;
+    padding: 10px;   
+}
+
+#section-2{
+    background-color: grey;
+    width: 400px;
+    border-style: solid;
+    margin: 5px;
+    padding: 10px;  
+}
+
+#section-3{
+    background-color: grey;
+    width: 400px;
+    border-style: solid;
+    margin: 5px;
+    padding: 10px;
+}
+
+.heading{
+    border-style: solid ;
+    margin-top:  0px ;
+    margin-left: 275px;
+    text-align: center;
+    background-color: tomato;
+    
+
+
+}
