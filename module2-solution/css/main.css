@@ -37,8 +37,6 @@ h3{
 
 .box{
     border: 1px solid black;
-   
-    width: 100%;
     margin: 10px;
     background-color: grey;
     box-sizing: border-box;
@@ -58,7 +56,7 @@ h3{
 }
 
 .container{
-    display: flex;
+    width: 102%;
     box-sizing:border-box;
     
 }
@@ -66,4 +64,50 @@ h3{
 div.menu{
     float: right;
     width: 50%;
+}
+
+@media(min-width: 992px){
+    .large{
+        float: left;
+        padding-left: 1px;
+        padding-right: 1px;
+        width:31%;
+        margin: 10px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .medium{
+        float: left;
+        margin: 10px;
+        padding-left: 1px;
+        padding-right: 1px;
+        width: 46%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .small{
+        float: left;
+        margin: 10px;
+        padding-left: 1px;
+        padding-right: 1px;
+        width: 94%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+@media (max-width: 767px){
+    .small{
+        float: left;
+        width: 90%;
+        margin: 10px;
+        padding-left: 1px;
+        padding-right: 1px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
 }
